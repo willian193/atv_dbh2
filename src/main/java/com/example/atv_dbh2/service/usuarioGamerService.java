@@ -20,7 +20,7 @@ public class usuarioGamerService {
     }
 
     public usuarioGamer buscar(Long id){
-        return repository.findById(Id)
+        return repository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Usuario gamer não encontrado"));
 
     }
@@ -35,7 +35,6 @@ public class usuarioGamerService {
             usuario.setNivel(dados.getNivel());
             return repository.save(usuario);
     }
-
     public void excluir(Long id){
         repository.deleteById(id);
     }
