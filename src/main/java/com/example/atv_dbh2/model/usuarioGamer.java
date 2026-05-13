@@ -11,7 +11,7 @@ import org.springframework.aot.generate.GeneratedTypeReference;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Usuario")
+@Table(name = "Usuarios")
 
 public class usuarioGamer {
         @Id
