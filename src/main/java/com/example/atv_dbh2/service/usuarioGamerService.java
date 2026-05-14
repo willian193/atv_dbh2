@@ -2,7 +2,6 @@ package com.example.atv_dbh2.service;
 
 import com.example.atv_dbh2.model.usuarioGamer;
 import com.example.atv_dbh2.repository.usuarioGamerRepository;
-import jakarta.persistence.Id;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
